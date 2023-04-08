@@ -8,11 +8,11 @@
 		<version>3.0.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>StudentsQueue</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>StudentsQueue</name>
-	<description>StudentsQueue</description>
+	<groupId>ru.rg</groupId>
+	<artifactId>group-queues-server</artifactId>
+	<version>0.1.0</version>
+	<name>group-queues-server</name>
+	<description>group-queues-server</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
