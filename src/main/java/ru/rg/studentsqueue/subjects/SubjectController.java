@@ -74,7 +74,7 @@ public class SubjectController {
      * @param student   The SubjectStudent object containing the updated status.
      * @return A ResponseEntity containing the updated SubjectEntity object.
      */
-    @PutMapping("{subjectId}/students/{studentId}")
+    @PutMapping("{xsubjectId}/students/{studentId}")
     public ResponseEntity<SubjectEntity> changeStudent(
             @PathVariable Long subjectId,
             @PathVariable Long studentId,
