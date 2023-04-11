@@ -27,7 +27,7 @@ public class CorsConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 registry
                         .addMapping("/api/**")
-                        .allowedOrigins("http://localhost")
+                        .allowedOrigins("http://n140935672385.fvds.ru", "http://localhost")
                         .allowedMethods("GET", "POST", "PUT", "DELETE")
                         .allowCredentials(false)
                         .maxAge(0);
